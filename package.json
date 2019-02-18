@@ -4,8 +4,9 @@
   "author": "Torgeir Hovden",
   "main": "dist/index",
   "scripts": {
-    "works": "webpack-dev-server", 
-    "fails": "webpack-dev-server --config webpack.config.fail.js"
+    "tsc": "tsc -p tsconfig.composite.json",
+    "works": "webpack-dev-server",
+    "fails": "webpack-dev-server --config webpack.config.composite.js"
   },
   "dependencies": {
     "ts-loader": "^5.3.3",

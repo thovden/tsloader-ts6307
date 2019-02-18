@@ -10,7 +10,7 @@ module.exports = {
             {   
                 test: /\.tsx?$/, 
                 loader: "ts-loader", 
-                options: { configFile: "tsconfig.fail.json" }  
+                options: { configFile: "tsconfig.composite.json" }  
             },
         ]
     }
